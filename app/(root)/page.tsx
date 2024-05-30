@@ -4,7 +4,7 @@ import TotalBalanceBox from "@/components/TotalBalanceBox";
 import React from "react"
 
 const Home = () => {
-  const loggedIn = {firstName:'Abiodun'};
+  const loggedIn = {firstName:'Abiodun', lastName:'Olatunji', email:'olatunjia889@gmail.com'};
   return (
     <section className="home">
       <div className="home-content bg-red500">
