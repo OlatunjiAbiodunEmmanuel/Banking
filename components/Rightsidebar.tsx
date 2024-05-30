@@ -1,4 +1,6 @@
 "use client";
+import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Rightsidebar = ({ user, transactions, banks }: RightSidebarProps) => {
@@ -23,7 +25,14 @@ const Rightsidebar = ({ user, transactions, banks }: RightSidebarProps) => {
       </section>
 
 <section className="banks">
-
+      <div className="flex w-full justify-between">
+        <h2 className="header-2">
+    My Banks
+        </h2>
+<Link href='/' className="flex gap-2">
+  <Image src='/icons/plus.svg' alt="plus" width={20} height={20}></Image>
+</Link>
+      </div>
 </section>
 
     </aside>
